@@ -6,11 +6,33 @@ function UserGroupIcon() {
 	)
 }
 
+
 function CardIcon() {
 	return (
 		<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
 			<path d='M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM323.8 202.5c-4.5-6.6-11.9-10.5-19.8-10.5s-15.4 3.9-19.8 10.5l-87 127.6L170.7 297c-4.6-5.7-11.5-9-18.7-9s-14.2 3.3-18.7 9l-64 80c-5.8 7.2-6.9 17.1-2.9 25.4s12.4 13.6 21.6 13.6h96 32H424c8.9 0 17.1-4.9 21.2-12.8s3.6-17.4-1.4-24.7l-120-176zM112 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z'/>
 		</svg>
+	)
+}
+
+function SustainableIcon() {
+	return (
+		<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+			<path d="M174.7 45.1C192.2 17 223 0 256 0s63.8 17 81.3 45.1l38.6 61.7 27-15.6c8.4-4.9 18.9-4.2 26.6 1.7s11.1 15.9 8.6 25.3l-23.4 87.4c-3.4 12.8-16.6 20.4-29.4 17l-87.4-23.4c-9.4-2.5-16.3-10.4-17.6-20s3.4-19.1 11.8-23.9l28.4-16.4L283 79c-5.8-9.3-16-15-27-15s-21.2 5.7-27 15l-17.5 28c-9.2 14.8-28.6 19.5-43.6 10.5c-15.3-9.2-20.2-29.2-10.7-44.4l17.5-28zM429.5 251.9c15-9 34.4-4.3 43.6 10.5l24.4 39.1c9.4 15.1 14.4 32.4 14.6 50.2c.3 53.1-42.7 96.4-95.8 96.4L320 448v32c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-64-64c-9.4-9.4-9.4-24.6 0-33.9l64-64c6.9-6.9 17.2-8.9 26.2-5.2s14.8 12.5 14.8 22.2v32l96.2 0c17.6 0 31.9-14.4 31.8-32c0-5.9-1.7-11.7-4.8-16.7l-24.4-39.1c-9.5-15.2-4.7-35.2 10.7-44.4zm-364.6-31L36 204.2c-8.4-4.9-13.1-14.3-11.8-23.9s8.2-17.5 17.6-20l87.4-23.4c12.8-3.4 26 4.2 29.4 17L182 241.2c2.5 9.4-.9 19.3-8.6 25.3s-18.2 6.6-26.6 1.7l-26.5-15.3L68.8 335.3c-3.1 5-4.8 10.8-4.8 16.7c-.1 17.6 14.2 32 31.8 32l32.2 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32.2 0C42.7 448-.3 404.8 0 351.6c.1-17.8 5.1-35.1 14.6-50.2l50.3-80.5z"/>
+			</svg>
+	)
+}
+
+function AffordableIcon() {
+	return (
+<svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"> 
+<path d="M64 64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H64zm64 320H64V320c35.3 0 64 28.7 64 64zM64 192V128h64c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64v64H448zm64-192c-35.3 0-64-28.7-64-64h64v64zM288 160a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"/>
+</svg>	)
+}
+
+function CustomizableIcon() {
+	return (
+		<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M362.7 19.3L314.3 67.7 444.3 197.7l48.4-48.4c25-25 25-65.5 0-90.5L453.3 19.3c-25-25-65.5-25-90.5 0zm-71 71L58.6 323.5c-10.4 10.4-18 23.3-22.2 37.4L1 481.2C-1.5 489.7 .8 498.8 7 505s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L421.7 220.3 291.7 90.3z"/></svg>
 	)
 }
 
@@ -26,26 +48,26 @@ function AboutSection() {
 
 					<div className='about'>
 						<div className='about-main'>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nec dui nunc mattis enim. Cursus sit amet dictum sit amet. Eget duis at tellus at urna condimentum mattis pellentesque. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Dapibus ultrices in iaculis nunc sed. Iaculis urna id volutpat lacus. Leo urna molestie at elementum eu facilisis. Ultricies integer quis auctor elit sed vulputate. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Massa tincidunt nunc pulvinar sapien et. Elementum sagittis vitae et leo duis ut diam quam. Dui id ornare arcu odio. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Nascetur ridiculus mus mauris vitae ultricies.</p>
+							<p>Welcome to Re:Start, the one-stop-shop for all your stylish and eco-friendly device cases. We specialize in customizable bio-degradable cases that are designed with both style and functionality in mind. Our mission is to help our customers protect their devices while also contributing to the environment. Our team is dedicated to providing a personalized experience and helping you find the perfect case for your device.</p>
 							<br />
-							<p>Nec feugiat nisl pretium fusce. Euismod nisi porta lorem mollis aliquam ut porttitor. Nunc non blandit massa enim nec dui. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Enim ut sem viverra aliquet eget sit amet. Sit amet justo donec enim diam vulputate ut. Augue lacus viverra vitae congue eu. Malesuada proin libero nunc consequat interdum. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Sagittis eu volutpat odio facilisis mauris sit.</p>
+							<p>At Re:Start, we realized that the phone cases we were using were causing more harm than good to the environment. That's why we decided to take a different approach and offer customized bio-degradable cases that are both stylish and sustainable.</p>
 						</div>
 
 						<div className='about-cards'>
 							<div className='about-card'>
-								<CardIcon />
-								<h4>Sample text</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<SustainableIcon />
+								<h4>Sustainable</h4>
+								<p>phone case made out of bio-degradable material</p>
 							</div>
 							<div className='about-card'>
-								<CardIcon />
-								<h4>Sample text</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<AffordableIcon />
+								<h4>Affordable</h4>
+								<p>available at a low price</p>
 							</div>
 							<div className='about-card'>
-								<CardIcon />
-								<h4>Sample text</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<CustomizableIcon />
+								<h4>Customizable</h4>
+								<p>make the case your style</p>
 							</div>
 						</div>
 					</div>

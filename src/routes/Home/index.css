@@ -333,3 +333,14 @@ header ul li a:hover {
 		flex-wrap: wrap;
 	}
 }
+
+#logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding-right: 5px;
+}
+
+#footer {
+	height: 50px;
+}
