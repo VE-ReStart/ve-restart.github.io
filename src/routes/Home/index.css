@@ -344,3 +344,17 @@ header ul li a:hover {
 #footer {
 	height: 50px;
 }
+
+#contactTitle {
+	font-size: 2rem;
+}
+
+#submit {
+	background-color: transparent;
+	border-radius: 1.5em;
+	background-color: #356cd3;
+	position: relative;
+	width: 5em;
+	height: 2.5em;
+	transition: width 0.3s ease-in-out;
+}

@@ -57,17 +57,17 @@ function AboutSection() {
 							<div className='about-card'>
 								<SustainableIcon />
 								<h4>Sustainable</h4>
-								<p>phone case made out of bio-degradable material</p>
+								<p>Wrap your phone in eco-friendly material!</p>
 							</div>
 							<div className='about-card'>
 								<AffordableIcon />
 								<h4>Affordable</h4>
-								<p>available at a low price</p>
+								<p>Available at an unbeatable low price!</p>
 							</div>
 							<div className='about-card'>
 								<CustomizableIcon />
 								<h4>Customizable</h4>
-								<p>make the case your style</p>
+								<p>Make the case YOUR style!</p>
 							</div>
 						</div>
 					</div>

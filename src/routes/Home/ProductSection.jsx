@@ -19,7 +19,9 @@ function ProductSection() {
 					<div className='product-cards'>
 						<div className='product-card'>
 							<h4>Phone Cases</h4>
-							<div className='product-card-image-placeholder' />
+							<div className='product-card-image-placeholder'>
+								<img src="" alt="" id="product-card-image" />
+							</div>
 							<a className='product-card-button'>Shop now</a>
 						</div>
 						<div className='product-card'>
