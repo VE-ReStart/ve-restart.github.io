@@ -35,7 +35,7 @@ function HeroSection() {
 						<p className='description'>Personalized phone and tablet cases, keyboards, and more</p>
 					</div>
 
-					<a className='button'>
+					<a href="/Buy/index.jsx" className='button'>
 						Explore our products <ArrowIcon />
 					</a>
 
