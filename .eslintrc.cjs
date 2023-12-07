@@ -14,6 +14,7 @@ module.exports = {
 	rules: {
 		'semi': [ 'error', 'never' ],
 		'quotes': [ 'error', 'single' ],
+		'jsx-quotes': [ 'error', 'prefer-single' ],
 		'react-refresh/only-export-components': [ 'error', { allowConstantExport: true } ],
 	},
 }

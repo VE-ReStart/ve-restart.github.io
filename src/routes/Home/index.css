@@ -49,8 +49,9 @@ header .logo {
 	font-weight: var(--text-bolder);
 }
 
-header .logo svg {
-	height: 2rem;
+header .logo img {
+	height: 5rem;
+	border-radius: 50%;
 	margin-right: 0.5rem;
 }
 
@@ -296,7 +297,7 @@ header ul li a:hover {
 }
 
 .product-card-image-placeholder:after {
-	content: "images pls wong charlie";
+	content: "Placeholder";
 	opacity: 0.5;
 }
 
@@ -332,4 +333,67 @@ header ul li a:hover {
 	.product-cards {
 		flex-wrap: wrap;
 	}
+}
+
+#footer {
+	background: var(--black);
+	color: var(--white-dark) !important;
+	fill: var(--white) !important;
+}
+
+#footer .container {
+	padding-top: var(--spacing-normal);
+	padding-bottom: var(--spacing-normal);
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: start;
+}
+
+.footer-split {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	text-align: left;
+}
+
+.footer-split a {
+	color: var(--white);
+}
+
+.footer-split h4 {
+	color: var(--white);
+	font-size: 1.25rem;
+	font-weight: var(--text-bolder);
+}
+
+.footer-split ul {
+	list-style: none;
+}
+
+.footer-split ul li {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.footer-split ul li svg {
+	width: 1rem;
+	height: 1rem;
+	margin: 0 0.5rem;
+}
+
+.footer-subtitle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-subtitle svg {
+	height: 1.25rem;
+	margin-right: 0.5rem;
 }

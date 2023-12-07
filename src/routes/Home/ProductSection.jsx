@@ -28,7 +28,7 @@ function ProductSection() {
 							<a className='product-card-button product-card-button-disabled'>Coming soon</a>
 						</div>
 						<div className='product-card'>
-							<h4>Keyboards???</h4>
+							<h4>Coming soon</h4>
 							<div className='product-card-image-placeholder' />
 							<a className='product-card-button product-card-button-disabled'>Coming soon</a>
 						</div>

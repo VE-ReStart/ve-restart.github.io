@@ -5,6 +5,7 @@ import FooterSection from './FooterSection'
 
 import './index.css'
 
+
 function Home() {
 	return (
 		<>
