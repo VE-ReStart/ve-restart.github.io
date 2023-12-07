@@ -1,6 +1,8 @@
+import logoImage from './logo.png'
+
 function LogoIcon() {
 	return (
-		<img src='./images/icon.png' alt="logo icon" id="logo"/>
+		<img src={logoImage} alt='logo icon' id='logo'/>
 	)
 }
 
@@ -13,7 +15,7 @@ function ArrowIcon() {
 }
 
 function HeroSection() {
-	return (	
+	return (
 		<section id='hero'>
 			<header>
 				<div className='content-outer'>
@@ -35,12 +37,12 @@ function HeroSection() {
 						<p className='description'>Personalized phone and tablet cases, keyboards, and more</p>
 					</div>
 
-					<a href="/Buy/index.jsx" className='button'>
+					<a href='#' className='button'>
 						Explore our products <ArrowIcon />
 					</a>
 
 					<div className='image'>
-						<p>charlie gimme a cool image to use here thanks</p>
+						<p>Placeholder</p>
 					</div>
 				</div>
 			</div>

@@ -19,9 +19,7 @@ function ProductSection() {
 					<div className='product-cards'>
 						<div className='product-card'>
 							<h4>Phone Cases</h4>
-							<div className='product-card-image-placeholder'>
-								<img src="" alt="" id="product-card-image" />
-							</div>
+							<div className='product-card-image-placeholder' />
 							<a className='product-card-button'>Shop now</a>
 						</div>
 						<div className='product-card'>
@@ -30,7 +28,7 @@ function ProductSection() {
 							<a className='product-card-button product-card-button-disabled'>Coming soon</a>
 						</div>
 						<div className='product-card'>
-							<h4>Keyboards???</h4>
+							<h4>Coming soon</h4>
 							<div className='product-card-image-placeholder' />
 							<a className='product-card-button product-card-button-disabled'>Coming soon</a>
 						</div>
