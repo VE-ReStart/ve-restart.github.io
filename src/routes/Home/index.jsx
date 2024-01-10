@@ -5,7 +5,6 @@ import FooterSection from './FooterSection'
 
 import './index.css'
 
-
 function Home() {
 	return (
 		<>
@@ -18,3 +17,4 @@ function Home() {
 }
 
 export default Home
+
