@@ -2,7 +2,7 @@ function LogoIcon() {
 	return <img src={'src/routes/Home/logo.png'} alt='logo icon' id='logo' />
 }
 
-function ProductHeroSection() {
+function CustomizeHeroSection() {
 	return (
 		<section id='hero'>
 			<header>
@@ -15,7 +15,7 @@ function ProductHeroSection() {
 							<a href='/'>Home</a>
 						</li>
 						<li>
-							<a href='/Customize'>Customize</a>
+							<a href='/products'>Products</a>
 						</li>
 						<li>
 							<a
@@ -33,5 +33,5 @@ function ProductHeroSection() {
 	)
 }
 
-export default ProductHeroSection
+export default CustomizeHeroSection
 

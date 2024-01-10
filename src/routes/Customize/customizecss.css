@@ -1,0 +1,27 @@
+#CustomizeSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background-image: url('images/phone cases/default/black.png'); /* you can change the URL to your desired background image */
+	background-repeat: no-repeat;
+	background-size: contain; /* changed from 'cover' to 'contain' */
+	background-position: center; /* Ensure the image always centers */
+	background-color: var(--white);
+}
+
+#canvasContainer {
+	width: 400px;
+	height: 800px;
+	border: 1px solid #000;
+	overflow: hidden;
+	position: relative;
+}
+
+#canvasOutput {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+

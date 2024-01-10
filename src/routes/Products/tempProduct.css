@@ -1,5 +1,18 @@
+body {
+	background-color: var(--white);
+}
+
+header ul li a {
+	color: var(--white);
+	opacity: 0.8;
+	transition: opacity 0.15s ease-in-out;
+}
+
+header ul li a:hover {
+	opacity: 1;
+}
+
 .black,
-.blue,
 .blue,
 .mint,
 .pink,
