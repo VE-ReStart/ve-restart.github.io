@@ -11,7 +11,7 @@ function CustomizeSection() {
 			<div id='canvasContainer'>
 				<canvas
 					id='canvasOutput'
-					tabindex='0'
+					tabIndex='0'
 					aria-label='Image processing result'
 				></canvas>
 			</div>
