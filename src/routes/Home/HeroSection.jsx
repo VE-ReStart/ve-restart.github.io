@@ -60,9 +60,7 @@ function HeroSection() {
 						Explore our products <ArrowIcon />
 					</a>
 
-					<div className='image'>
-						<p>Placeholder</p>
-					</div>
+					<div className='image'></div>
 				</div>
 			</div>
 		</section>
