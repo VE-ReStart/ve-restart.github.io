@@ -2,7 +2,7 @@ import './tempProduct.css'
 
 const openBuyPage1 = () => {
 	const newSiteUrl =
-		'https://portal.veinternational.org/buybuttons/us015434/btn/iphone-13-pro-case-with-design-002/'
+		'https://portal.veinternational.org/buybuttons/us015434/btn/iphone-case-with-design-002/'
 	window.open(newSiteUrl, '_blank')
 }
 
@@ -278,7 +278,9 @@ function Product() {
 						onClick={() => changeCYB('yellow')}
 					></button>
 				</div>
-				<button className='buy'>BUY</button>
+				<button className='buy' onClick={() => openBuyPage1()}>
+					BUY
+				</button>
 			</div>
 
 			<div className='row-container'>
@@ -339,7 +341,9 @@ function Product() {
 						onClick={() => changeCBN('yellow')}
 					></button>
 				</div>
-				<button className='buy'>BUY</button>
+				<button className='buy' onClick={() => openBuyPage1()}>
+					BUY
+				</button>
 			</div>
 
 			<div className='row-container'>
@@ -400,7 +404,9 @@ function Product() {
 						onClick={() => changeCats('yellow')}
 					></button>
 				</div>
-				<button className='buy'>BUY</button>
+				<button className='buy' onClick={() => openBuyPage1()}>
+					BUY
+				</button>
 			</div>
 
 			<div className='row-container'>
@@ -461,7 +467,9 @@ function Product() {
 						onClick={() => changeHKC('yellow')}
 					></button>
 				</div>
-				<button className='buy'>BUY</button>
+				<button className='buy' onClick={() => openBuyPage1()}>
+					BUY
+				</button>
 			</div>
 
 			<div className='row-container'>
@@ -522,7 +530,9 @@ function Product() {
 						onClick={() => changeFish('yellow')}
 					></button>
 				</div>
-				<button className='buy'>BUY</button>
+				<button className='buy' onClick={() => openBuyPage1()}>
+					BUY
+				</button>
 			</div>
 
 			<div className='row-container'>
@@ -583,7 +593,9 @@ function Product() {
 						onClick={() => changeFlowers('yellow')}
 					></button>
 				</div>
-				<button className='buy'>BUY</button>
+				<button className='buy' onClick={() => openBuyPage1()}>
+					BUY
+				</button>
 			</div>
 
 			<div className='row-container'>
@@ -644,7 +656,9 @@ function Product() {
 						onClick={() => changeFlowers2('yellow')}
 					></button>
 				</div>
-				<button className='buy'>BUY</button>
+				<button className='buy' onClick={() => openBuyPage1()}>
+					BUY
+				</button>
 			</div>
 
 			<div className='row-container'>
@@ -705,7 +719,9 @@ function Product() {
 						onClick={() => changeFnaf('yellow')}
 					></button>
 				</div>
-				<button className='buy'>BUY</button>
+				<button className='buy' onClick={() => openBuyPage1()}>
+					BUY
+				</button>
 			</div>
 			<div className='row-container'>
 				<div className='row-wrapper'>
@@ -765,11 +781,12 @@ function Product() {
 						onClick={() => changeHKH('yellow')}
 					></button>
 				</div>
-				<button className='buy'>BUY</button>
+				<button className='buy' onClick={() => openBuyPage1()}>
+					BUY
+				</button>
 			</div>
 		</section>
 	)
 }
 
 export default Product
-

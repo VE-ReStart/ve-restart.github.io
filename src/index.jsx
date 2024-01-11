@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Home from './routes/Home'
 import Product from './routes/Products'
-import Customize from './routes/Customize'
+
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,9 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/products' element={<Product />} />
-				<Route path='/customize' element={<Customize />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>
 )
-

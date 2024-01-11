@@ -19,7 +19,12 @@ function ProductSection() {
 					<div className='product-cards'>
 						<div className='product-card'>
 							<h4>Phone Cases</h4>
-							<div className='product-card-image-placeholder' />
+							<div className='product-card-image'>
+								<img
+									src='images/phone cases/flowers 2/white flower2.png'
+									id='product-card-phone'
+								></img>
+							</div>
 							<a className='product-card-button' href='/products'>
 								Shop now
 							</a>
@@ -46,4 +51,3 @@ function ProductSection() {
 }
 
 export default ProductSection
-
