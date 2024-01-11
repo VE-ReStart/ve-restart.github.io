@@ -1,3 +1,5 @@
+import { HashLink as Link } from 'react-router-hash-link'
+
 function LogoIcon() {
 	return <img src={'src/routes/Home/logo.png'} alt='logo icon' id='logo' />
 }
@@ -7,12 +9,12 @@ function ProductHeroSection() {
 		<section id='hero'>
 			<header>
 				<div className='content-outer'>
-					<a href='/' className='logo'>
+					<Link to='/' className='logo'>
 						<LogoIcon /> Re:Start
-					</a>
+					</Link>
 					<ul>
 						<li>
-							<a href='/'>Home</a>
+							<Link to='/'>Home</Link>
 						</li>
 						<li>
 							<a href='https://uwuelias.github.io/ve-customize/'>
@@ -36,3 +38,4 @@ function ProductHeroSection() {
 }
 
 export default ProductHeroSection
+

@@ -1,3 +1,7 @@
+import { HashLink as Link } from 'react-router-hash-link'
+
+import phoneCase from '../../../images/phone cases/flowers 2/white flower2.png'
+
 function ShoppingCartIcon() {
 	return (
 		<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'>
@@ -21,30 +25,30 @@ function ProductSection() {
 							<h4>Phone Cases</h4>
 							<div className='product-card-image'>
 								<img
-									src='images/phone cases/flowers 2/white flower2.png'
+									src={phoneCase}
 									id='product-card-phone'
 								></img>
 							</div>
-							<a
+							<Link
+								to='/products'
 								className='product-card-button'
-								href='#/products'
 							>
 								Shop now
-							</a>
+							</Link>
 						</div>
 						<div className='product-card'>
 							<h4>Tablet Cases</h4>
 							<div className='product-card-image-placeholder' />
-							<a className='product-card-button product-card-button-disabled'>
+							<Link className='product-card-button product-card-button-disabled'>
 								Coming soon
-							</a>
+							</Link>
 						</div>
 						<div className='product-card'>
 							<h4>Coming soon</h4>
 							<div className='product-card-image-placeholder' />
-							<a className='product-card-button product-card-button-disabled'>
+							<Link className='product-card-button product-card-button-disabled'>
 								Coming soon
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -54,3 +58,4 @@ function ProductSection() {
 }
 
 export default ProductSection
+
