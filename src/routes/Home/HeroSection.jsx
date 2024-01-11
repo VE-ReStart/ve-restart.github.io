@@ -56,7 +56,7 @@ function HeroSection() {
 						</p>
 					</div>
 
-					<a href='/products' className='button'>
+					<a href='#/products' className='button'>
 						Explore our products <ArrowIcon />
 					</a>
 
@@ -68,4 +68,3 @@ function HeroSection() {
 }
 
 export default HeroSection
-
