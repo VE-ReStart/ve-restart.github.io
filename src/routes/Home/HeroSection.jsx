@@ -56,7 +56,7 @@ function HeroSection() {
 						</p>
 					</div>
 
-					<a className='button' href='/products'>
+					<a href='/products' className='button'>
 						Explore our products <ArrowIcon />
 					</a>
 
