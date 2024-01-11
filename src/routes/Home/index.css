@@ -123,11 +123,18 @@ header ul li a:hover {
 
 .image {
 	width: min(100%, 700px);
-	padding: 20% 0;
+	padding: 5% 0;
+	/*
 	border: 1px dashed rgba(255, 255, 255, 0.5);
 	border-radius: 2rem;
+	*/
 	overflow: hidden;
 	margin: var(--spacing-big) auto 0;
+}
+
+.image img {
+	width: 100%;
+	height: 100%;
 }
 
 .image p {
@@ -153,8 +160,7 @@ header ul li a:hover {
 }
 
 .button:hover {
-	box-shadow:
-		0 0 0 3px rgba(255, 255, 255, 0.3),
+	box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3),
 		0 0 15px rgba(255, 255, 255, 0.5);
 	filter: brightness(115%);
 }
@@ -257,8 +263,7 @@ header ul li a:hover {
 
 	padding: 1rem;
 	border-radius: 1.5rem;
-	box-shadow:
-		0 0 0 2px rgba(0, 0, 0, 0.2),
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2),
 		0 0 10px rgba(255, 255, 255, 0.1) inset;
 
 	display: flex;
@@ -297,8 +302,20 @@ header ul li a:hover {
 }
 
 .product-card-image-placeholder:after {
-	content: "Placeholder";
+	content: 'Coming soon';
 	opacity: 0.5;
+}
+#product-card-phone {
+	width: 100%;
+}
+
+.product-card-image {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .product-card-button {
@@ -318,14 +335,13 @@ header ul li a:hover {
 }
 
 .product-card-button:not(.product-card-button-disabled):hover {
-	box-shadow:
-		0 0 0 3px rgba(255, 255, 255, 0.3),
+	box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3),
 		0 0 15px rgba(255, 255, 255, 0.5);
 	filter: brightness(115%);
 }
 
 .product-card-button-disabled {
-	color: #AAA;
+	color: #aaa;
 	background: var(--gray-dark);
 }
 
