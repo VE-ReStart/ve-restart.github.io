@@ -25,7 +25,10 @@ function ProductSection() {
 									id='product-card-phone'
 								></img>
 							</div>
-							<a className='product-card-button' href='/products'>
+							<a
+								className='product-card-button'
+								href='#/products'
+							>
 								Shop now
 							</a>
 						</div>
