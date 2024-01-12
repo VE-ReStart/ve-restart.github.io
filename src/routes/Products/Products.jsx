@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 
-import './tempProduct.css'
+const caseImages = import.meta.glob('../../../images/cases/*/*.png')
 
 function openBuyPage() {
 	window.open(
@@ -15,7 +15,7 @@ function ProductItem({ name, imageRoot }) {
 	let [color, setColor] = useState('white')
 
 	useEffect(() => {
-		import(`${imageRoot}/${color}.png`).then((mod) => {
+		caseImages[`${imageRoot}/${color}.png`]().then((mod) => {
 			setImage(mod.default)
 		})
 	}, [imageRoot, color])
@@ -82,33 +82,33 @@ export default function Products() {
 		<section id='ProductPage'>
 			<ProductItem
 				name='Cat Playing With A Yarn Ball'
-				imageRoot='../../../images/cases/cat_yarn/'
+				imageRoot='../../../images/cases/cat_yarn'
 			/>
 			<ProductItem
 				name='Cat With A Bowl Of Noodles'
-				imageRoot='../../../images/cases/cat_noodle/'
+				imageRoot='../../../images/cases/cat_noodle'
 			/>
-			<ProductItem name='Cats' imageRoot='../../../images/cases/cats/' />
+			<ProductItem name='Cats' imageRoot='../../../images/cases/cats' />
 			<ProductItem
 				name='Hello Kitty Christmas'
-				imageRoot='../../../images/cases/hello_kitty_christmas/'
+				imageRoot='../../../images/cases/hello_kitty_christmas'
 			/>
 			<ProductItem
 				name='Hello Kitty Heart'
-				imageRoot='../../../images/cases/hello_kitty_heart/'
+				imageRoot='../../../images/cases/hello_kitty_heart'
 			/>
-			<ProductItem name='Fish' imageRoot='../../../images/cases/fish/' />
+			<ProductItem name='Fish' imageRoot='../../../images/cases/fish' />
 			<ProductItem
 				name='Flowers'
-				imageRoot='../../../images/cases/flowers/'
+				imageRoot='../../../images/cases/flowers'
 			/>
 			<ProductItem
 				name='Flowers'
-				imageRoot='../../../images/cases/flowers_2/'
+				imageRoot='../../../images/cases/flowers_2'
 			/>
 			<ProductItem
 				name="Five Nights At Freddy's"
-				imageRoot='../../../images/cases/fnaf/'
+				imageRoot='../../../images/cases/fnaf'
 			/>
 		</section>
 	)
