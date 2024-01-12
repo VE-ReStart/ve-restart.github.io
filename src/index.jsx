@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Home from './routes/Home'
-import Product from './routes/Products'
+import Products from './routes/Products'
 
 import './index.css'
 
@@ -12,8 +12,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 		<Router>
 			<Routes>
 				<Route path='/' element={<Home />} />
-				<Route path='/products' element={<Product />} />
+				<Route path='/products' element={<Products />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>
 )
+

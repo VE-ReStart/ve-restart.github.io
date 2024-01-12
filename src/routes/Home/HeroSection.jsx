@@ -1,7 +1,9 @@
-import logoImage from './logo.png'
+import { HashLink as Link } from 'react-router-hash-link'
+
+import logoImage from '../../../images/logo.png'
 
 function LogoIcon() {
-	return <img src={logoImage} alt='logo icon' id='logo' />
+	return <img src={logoImage} id='logo' />
 }
 
 function ArrowIcon() {
@@ -17,18 +19,18 @@ function HeroSection() {
 		<section id='hero'>
 			<header>
 				<div className='content-outer'>
-					<a href='/' className='logo'>
+					<Link to='/' className='logo'>
 						<LogoIcon /> Re:Start
-					</a>
+					</Link>
 					<ul>
 						<li>
-							<a href='#about'>About</a>
+							<Link to='#about'>About</Link>
 						</li>
 						<li>
-							<a href='#products'>Products</a>
+							<Link to='#products'>Products</Link>
 						</li>
 						<li>
-							<a href='#footer'>Contact</a>
+							<Link to='#footer'>Contact</Link>
 						</li>
 						<li>
 							<a
@@ -56,9 +58,9 @@ function HeroSection() {
 						</p>
 					</div>
 
-					<a href='#/products' className='button'>
+					<Link to='/products' className='button'>
 						Explore our products <ArrowIcon />
-					</a>
+					</Link>
 
 					<div className='image'></div>
 				</div>
@@ -68,3 +70,4 @@ function HeroSection() {
 }
 
 export default HeroSection
+

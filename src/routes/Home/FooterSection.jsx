@@ -1,3 +1,5 @@
+import { HashLink as Link } from 'react-router-hash-link'
+
 function MessagesIcon() {
 	return (
 		<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'>
@@ -29,9 +31,9 @@ function FooterSection() {
 				<div className='content'>
 					<div className='footer'>
 						<div className='footer-split'>
-							<a href='/' className='footer-title'>
+							<Link to='/' className='footer-title'>
 								<h4>Re:Start</h4>
-							</a>
+							</Link>
 
 							<br />
 							<p>For educational purposes only.</p>
