@@ -1,7 +1,9 @@
 import { HashLink as Link } from 'react-router-hash-link'
 
+import logoImage from '../../../images/logo.png'
+
 function LogoIcon() {
-	return <img src={'src/routes/Home/logo.png'} alt='logo icon' id='logo' />
+	return <img src={logoImage} alt='logo icon' id='logo' />
 }
 
 function ProductHeroSection() {

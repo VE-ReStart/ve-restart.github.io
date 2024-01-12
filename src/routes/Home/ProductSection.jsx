@@ -1,6 +1,6 @@
 import { HashLink as Link } from 'react-router-hash-link'
 
-import phoneCase from '../../../images/phone cases/flowers 2/white flower2.png'
+import phoneCase from '../../../images/cases/flowers_2/white.png'
 
 function ShoppingCartIcon() {
 	return (

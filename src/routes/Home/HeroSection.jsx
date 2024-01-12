@@ -1,9 +1,9 @@
 import { HashLink as Link } from 'react-router-hash-link'
 
-import logoImage from './logo.png'
+import logoImage from '../../../images/logo.png'
 
 function LogoIcon() {
-	return <img src={logoImage} alt='logo icon' id='logo' />
+	return <img src={logoImage} id='logo' />
 }
 
 function ArrowIcon() {
