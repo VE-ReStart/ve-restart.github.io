@@ -414,6 +414,10 @@ header ul li a:hover {
 	margin-right: 0.5rem;
 }
 
+#promotion {
+	overflow: hidden;
+}
+
 #promotionText {
 	color: var(--blue-dark);
 	position: relative;
