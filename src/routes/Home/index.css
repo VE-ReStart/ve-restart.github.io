@@ -413,3 +413,19 @@ header ul li a:hover {
 	height: 1.25rem;
 	margin-right: 0.5rem;
 }
+
+#promotionText {
+	color: var(--blue-dark);
+	position: relative;
+	animation: left-to-right 10s linear infinite;
+	text-align: left;
+}
+
+@keyframes left-to-right {
+	0% {
+		left: -30%;
+	}
+	100% {
+		left: 100%;
+	}
+}
