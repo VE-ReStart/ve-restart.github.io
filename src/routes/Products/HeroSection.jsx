@@ -19,7 +19,7 @@ function ProductHeroSection() {
 							<Link to='/'>Home</Link>
 						</li>
 						<li>
-							<a href='https://uwuelias.github.io/ve-customize/'>
+							<a href='https://ve-restart.github.io/customize/'>
 								Customize
 							</a>
 						</li>
@@ -40,4 +40,3 @@ function ProductHeroSection() {
 }
 
 export default ProductHeroSection
-
