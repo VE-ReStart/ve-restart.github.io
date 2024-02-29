@@ -1,4 +1,3 @@
-import PromotionSection from './PromotionSection'
 import HeroSection from './HeroSection'
 import AboutSection from './AboutSection'
 import ProductSection from './ProductSection'
@@ -9,7 +8,6 @@ import './index.css'
 function Home() {
 	return (
 		<>
-			<PromotionSection />
 			<HeroSection />
 			<AboutSection />
 			<ProductSection />
@@ -19,3 +17,4 @@ function Home() {
 }
 
 export default Home
+
