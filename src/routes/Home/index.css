@@ -160,7 +160,8 @@ header ul li a:hover {
 }
 
 .button:hover {
-	box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3),
+	box-shadow:
+		0 0 0 3px rgba(255, 255, 255, 0.3),
 		0 0 15px rgba(255, 255, 255, 0.5);
 	filter: brightness(115%);
 }
@@ -263,7 +264,8 @@ header ul li a:hover {
 
 	padding: 1rem;
 	border-radius: 1.5rem;
-	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2),
+	box-shadow:
+		0 0 0 2px rgba(0, 0, 0, 0.2),
 		0 0 10px rgba(255, 255, 255, 0.1) inset;
 
 	display: flex;
@@ -335,7 +337,8 @@ header ul li a:hover {
 }
 
 .product-card-button:not(.product-card-button-disabled):hover {
-	box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3),
+	box-shadow:
+		0 0 0 3px rgba(255, 255, 255, 0.3),
 		0 0 15px rgba(255, 255, 255, 0.5);
 	filter: brightness(115%);
 }
@@ -415,6 +418,9 @@ header ul li a:hover {
 }
 
 #promotion {
+	position: sticky;
+	top: 0;
+	z-index: 100;
 	overflow: hidden;
 }
 
@@ -433,3 +439,4 @@ header ul li a:hover {
 		left: 100%;
 	}
 }
+
