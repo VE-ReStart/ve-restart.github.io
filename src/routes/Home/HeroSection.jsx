@@ -49,13 +49,9 @@ function HeroSection() {
 				<div className='content'>
 					<div className='title'>
 						<h2>
-							We&apos;re <span>Restarting</span> Digital
-							Accessories.
+							We&apos;re <span>Restarting</span> Digital Accessories.
 						</h2>
-						<p className='description'>
-							Personalized phone and tablet cases, keyboards, and
-							more
-						</p>
+						<p className='description'>Personalized phone and tablet cases, keyboards, and more</p>
 					</div>
 
 					<Link to='/products' className='button'>
@@ -70,4 +66,3 @@ function HeroSection() {
 }
 
 export default HeroSection
-

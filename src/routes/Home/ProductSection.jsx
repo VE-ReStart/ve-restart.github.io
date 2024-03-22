@@ -24,31 +24,21 @@ function ProductSection() {
 						<div className='product-card'>
 							<h4>Phone Cases</h4>
 							<div className='product-card-image'>
-								<img
-									src={phoneCase}
-									id='product-card-phone'
-								></img>
+								<img src={phoneCase} id='product-card-phone'></img>
 							</div>
-							<Link
-								to='/products'
-								className='product-card-button'
-							>
+							<Link to='/products' className='product-card-button'>
 								Shop now
 							</Link>
 						</div>
 						<div className='product-card'>
 							<h4>Tablet Cases</h4>
 							<div className='product-card-image-placeholder' />
-							<Link className='product-card-button product-card-button-disabled'>
-								Coming soon
-							</Link>
+							<Link className='product-card-button product-card-button-disabled'>Coming soon</Link>
 						</div>
 						<div className='product-card'>
 							<h4>Coming soon</h4>
 							<div className='product-card-image-placeholder' />
-							<Link className='product-card-button product-card-button-disabled'>
-								Coming soon
-							</Link>
+							<Link className='product-card-button product-card-button-disabled'>Coming soon</Link>
 						</div>
 					</div>
 				</div>
@@ -58,4 +48,3 @@ function ProductSection() {
 }
 
 export default ProductSection
-

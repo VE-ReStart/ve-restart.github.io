@@ -43,24 +43,18 @@ function AboutSection() {
 					<div className='about'>
 						<div className='about-main'>
 							<p>
-								Here at Re:Start, we realized that most people
-								don&apos;t put priority into protecting their
-								devices. The average person drops their phone
-								multiple times in a day! While plenty of
-								companies sell phone cases, most cases are made
-								of unprotective and environment-damaging
-								materials, have bad designs, and most
-								importantly, are being sold at outrageous
-								prices.
+								Here at Re:Start, we realized that most people don&apos;t put priority into protecting
+								their devices. The average person drops their phone multiple times in a day! While
+								plenty of companies sell phone cases, most cases are made of unprotective and
+								environment-damaging materials, have bad designs, and most importantly, are being sold
+								at outrageous prices.
 							</p>
 							<br />
 							<p>
-								Because of this, we decided to create a platform
-								where you can design your very own personalized
-								phone case at the click of a button that
-								you&apos;ll love, and buy them at low and
-								affordable prices in order to promote the need
-								to protect your phone from damage.
+								Because of this, we decided to create a platform where you can design your very own
+								personalized phone case at the click of a button that you&apos;ll love, and buy them at
+								low and affordable prices in order to promote the need to protect your phone from
+								damage.
 							</p>
 						</div>
 
@@ -68,10 +62,7 @@ function AboutSection() {
 							<div className='about-card'>
 								<CustomizableIcon />
 								<h4>Customizable</h4>
-								<p>
-									Easily create your very own personalized
-									designs
-								</p>
+								<p>Easily create your very own personalized designs</p>
 							</div>
 							<div className='about-card'>
 								<AffordableIcon />
@@ -81,10 +72,7 @@ function AboutSection() {
 							<div className='about-card'>
 								<SustainableIcon />
 								<h4>Sustainable</h4>
-								<p>
-									We only use long-lasting eco-friendly
-									materials
-								</p>
+								<p>We only use long-lasting eco-friendly materials</p>
 							</div>
 						</div>
 					</div>
@@ -95,4 +83,3 @@ function AboutSection() {
 }
 
 export default AboutSection
-
