@@ -19,9 +19,7 @@ function ProductHeroSection() {
 							<Link to='/'>Home</Link>
 						</li>
 						<li>
-							<a href='https://ve-restart.github.io/customize/'>
-								Customize
-							</a>
+							<a href='https://ve-restart.github.io/customize/'>Customize</a>
 						</li>
 						<li>
 							<a

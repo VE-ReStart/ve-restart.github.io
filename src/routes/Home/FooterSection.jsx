@@ -39,20 +39,14 @@ function FooterSection() {
 							<p>For educational purposes only.</p>
 							<p>
 								For further information, see{' '}
-								<a
-									href='https://veinternational.org/'
-									rel='noreferrer'
-									target='_blank'
-								>
+								<a href='https://veinternational.org/' rel='noreferrer' target='_blank'>
 									VE International
 								</a>
 								.
 							</p>
 							<br />
 
-							<p className='footer-copyright'>
-								&copy; 2024 Re:Start
-							</p>
+							<p className='footer-copyright'>&copy; 2024 Re:Start</p>
 						</div>
 
 						<div className='footer-split'>
@@ -67,17 +61,11 @@ function FooterSection() {
 							<ul>
 								<li>
 									<EmailIcon />
-									<a href='mailto:restart.ny@veinternational.org'>
-										restart.ny@veinternational.org
-									</a>
+									<a href='mailto:restart.ny@veinternational.org'>restart.ny@veinternational.org</a>
 								</li>
 								<li>
 									<InstaIcon />
-									<a
-										href='https://www.instagram.com/ve.restart'
-										rel='noreferrer'
-										target='_blank'
-									>
+									<a href='https://www.instagram.com/ve.restart' rel='noreferrer' target='_blank'>
 										@ve.restart
 									</a>
 								</li>
@@ -91,4 +79,3 @@ function FooterSection() {
 }
 
 export default FooterSection
-

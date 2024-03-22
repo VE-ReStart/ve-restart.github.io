@@ -12,9 +12,9 @@ module.exports = {
 	settings: { react: { version: '18.2' } },
 	plugins: ['react-refresh'],
 	rules: {
-		'semi': [ 'error', 'never' ],
-		'quotes': [ 'error', 'single' ],
-		'jsx-quotes': [ 'error', 'prefer-single' ],
-		'react-refresh/only-export-components': [ 'error', { allowConstantExport: true } ],
+		'semi': ['error', 'never'],
+		'quotes': ['error', 'single'],
+		'jsx-quotes': ['error', 'prefer-single'],
+		'react-refresh/only-export-components': ['error', { allowConstantExport: true }],
 	},
 }

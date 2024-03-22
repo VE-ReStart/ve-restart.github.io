@@ -4,10 +4,7 @@ import PropTypes from 'prop-types'
 const caseImages = import.meta.glob('../../../images/cases/*/*.png')
 
 function openBuyPage() {
-	window.open(
-		'https://portal.veinternational.org/buybuttons/us015434/btn/iphone-case-with-design-002/',
-		'_blank'
-	)
+	window.open('https://portal.veinternational.org/buybuttons/us015434/btn/iphone-case-with-design-002/', '_blank')
 }
 
 function ProductItem({ name, imageRoot }) {
@@ -36,34 +33,13 @@ function ProductItem({ name, imageRoot }) {
 				<option>iPhone 14</option>
 			</select>
 			<div className='buttons-container'>
-				<button
-					onClick={() => setColor('black')}
-					className='black'
-				></button>
-				<button
-					onClick={() => setColor('blue')}
-					className='blue'
-				></button>
-				<button
-					onClick={() => setColor('mint')}
-					className='mint'
-				></button>
-				<button
-					onClick={() => setColor('pink')}
-					className='pink'
-				></button>
-				<button
-					onClick={() => setColor('purple')}
-					className='purple'
-				></button>
-				<button
-					onClick={() => setColor('white')}
-					className='white'
-				></button>
-				<button
-					onClick={() => setColor('yellow')}
-					className='yellow'
-				></button>
+				<button onClick={() => setColor('black')} className='black'></button>
+				<button onClick={() => setColor('blue')} className='blue'></button>
+				<button onClick={() => setColor('mint')} className='mint'></button>
+				<button onClick={() => setColor('pink')} className='pink'></button>
+				<button onClick={() => setColor('purple')} className='purple'></button>
+				<button onClick={() => setColor('white')} className='white'></button>
+				<button onClick={() => setColor('yellow')} className='yellow'></button>
 			</div>
 			<button className='buy' onClick={openBuyPage}>
 				BUY
@@ -80,37 +56,15 @@ ProductItem.propTypes = {
 export default function Products() {
 	return (
 		<section id='ProductPage'>
-			<ProductItem
-				name='Cat Playing With A Yarn Ball'
-				imageRoot='../../../images/cases/cat_yarn'
-			/>
-			<ProductItem
-				name='Cat With A Bowl Of Noodles'
-				imageRoot='../../../images/cases/cat_noodle'
-			/>
+			<ProductItem name='Cat Playing With A Yarn Ball' imageRoot='../../../images/cases/cat_yarn' />
+			<ProductItem name='Cat With A Bowl Of Noodles' imageRoot='../../../images/cases/cat_noodle' />
 			<ProductItem name='Cats' imageRoot='../../../images/cases/cats' />
-			<ProductItem
-				name='Hello Kitty Christmas'
-				imageRoot='../../../images/cases/hello_kitty_christmas'
-			/>
-			<ProductItem
-				name='Hello Kitty Heart'
-				imageRoot='../../../images/cases/hello_kitty_heart'
-			/>
+			<ProductItem name='Hello Kitty Christmas' imageRoot='../../../images/cases/hello_kitty_christmas' />
+			<ProductItem name='Hello Kitty Heart' imageRoot='../../../images/cases/hello_kitty_heart' />
 			<ProductItem name='Fish' imageRoot='../../../images/cases/fish' />
-			<ProductItem
-				name='Flowers'
-				imageRoot='../../../images/cases/flowers'
-			/>
-			<ProductItem
-				name='Flowers'
-				imageRoot='../../../images/cases/flowers_2'
-			/>
-			<ProductItem
-				name="Five Nights At Freddy's"
-				imageRoot='../../../images/cases/fnaf'
-			/>
+			<ProductItem name='Flowers' imageRoot='../../../images/cases/flowers' />
+			<ProductItem name='Flowers' imageRoot='../../../images/cases/flowers_2' />
+			<ProductItem name="Five Nights At Freddy's" imageRoot='../../../images/cases/fnaf' />
 		</section>
 	)
 }
-
